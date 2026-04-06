@@ -5,7 +5,7 @@ import { Card, CardAction, CardFooter, CardHeader, CardTitle } from "@/component
 import { FieldGroup, Field, FieldLabel } from "@/components/ui/field";
 import { Input } from "@/components/ui/input";
 import { useState } from "react";
-
+import { setSignUP } from "@/action/action";
 
 export default function Signup() {
     const [password,setPassword] = useState("")
